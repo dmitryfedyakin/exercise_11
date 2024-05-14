@@ -23,7 +23,10 @@ while True:
     print('Выберите трэк:') 
     number = int(input())
     track = alb.tracks[number - 1]
-
+    for song in alb.tracks:
+        if song != track:
+            song.pause()
+            
     while True:
         print('\nВыберите действие:')
         print('1. Воспроизвести трек')
