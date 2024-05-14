@@ -91,6 +91,10 @@ class Schedule:
 
 
 class Load:
+    '''
+    Represents data load from file.
+    '''
+    
     def read_data(filename):
         '''
         Loads information about Table.
