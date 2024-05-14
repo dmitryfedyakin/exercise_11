@@ -20,8 +20,11 @@ alb.del_track(track_2)
 
 while True:
     print(alb)
-    print('Выберите трэк:') 
+    print('Выберите трэк или выйдите на 0:') 
     number = int(input())
+    if number == 0:
+        break
+
     track = alb.tracks[number - 1]
     for song in alb.tracks:
         if song != track:
