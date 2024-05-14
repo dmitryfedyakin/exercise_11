@@ -47,7 +47,8 @@ class Subject:
 
 class Schedule:
     '''
-    
+    Represents group schedule.
+
     Attributes:
         schedule_dict (dict): Dictionary consider information about table
     '''
